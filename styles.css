@@ -87,12 +87,21 @@ body {
 
   .contact-info__block {
       display: flex;
+      flex: 1;
       flex-direction: column;
       justify-content: space-between;
   }
 
   .contact-info__block--center {
       justify-content: center;
+      align-items: center;
+  }
+
+  .contact-info__block--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   .contact-info__item {
